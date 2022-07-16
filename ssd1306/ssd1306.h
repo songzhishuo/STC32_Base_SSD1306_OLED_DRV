@@ -19,10 +19,6 @@
 
 /* vvv I2C config vvv */
 
-//#ifndef SSD1306_I2C_PORT
-//#define SSD1306_I2C_PORT        hi2c1
-//#endif
-
 #ifndef SSD1306_I2C_ADDR
 #define SSD1306_I2C_ADDR        (0x3C << 1)
 #endif
@@ -30,11 +26,6 @@
 /* ^^^ I2C config ^^^ */
 
 /* vvv SPI config vvv */
-
-#ifndef SSD1306_SPI_PORT
-#define SSD1306_SPI_PORT        hspi2
-#endif
-
 #ifndef SSD1306_CS_Port
 #define SSD1306_CS_Port         GPIOB
 #endif
